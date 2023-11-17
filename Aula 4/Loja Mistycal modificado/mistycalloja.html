@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mistycal Loja Formulário</title>
+    <!--Colocar icone-->
+    <link rel="shortcut icon" href="bola de cristal.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+    }
+        body {
+            background-color: rgba(0, 0, 255, 0.226);
+            background-attachment: fixed;
+            padding: 30px;
+            background-image: url("https://i.pinimg.com/originals/9c/b6/19/9cb6195de12c10ac094a3190db2ce6c2.jpg");
+            background-size: cover;
+            position: relative;
+            line-height: 1.3;
+            border-color: rgba(0, 0, 255, 0.226);
+    }
+        .card-header{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-align: center;
+            background-image: url("https://static.vecteezy.com/ti/vetor-gratis/p3/4996505-oculto-e-bruxa-padrao-sem-costura-com-elementos-roxos-e-azuis-taro-cartas-gemas-preciosas-ouija-tabuleiro-e-frascos-wiccan-e-esoterico-repetir-fundo-com-psicodelico-e-objetos-magicos-vetor.jpg");
+            background-size: cover;
+            border-color: rgba(139, 0, 139, 0.642);
+            border-style: solid;
+            background-attachment: fixed;
+            padding: 50px;
+            border-width: 2px;
+            background-color: rgba(139, 0, 139, 0.642);
+        }
+        .card-body{
+            background-blend-mode: darken;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            background-color: rgba(0, 0, 255, 0.226);
+            background-image: url("https://i.pinimg.com/736x/8d/40/1e/8d401e81a374c6939f0e6a06bd721eb7.jpg");
+            background-attachment: fixed;
+            padding: 30px;
+            border-color: rgba(0, 0, 255, 0.226);
+        }
+        .titulo {
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="card-header">
+                <h1 class="titulo">⛧ Formulário Loja Mistycal ⛧</h1>
+            </div>
+            <div class="card-body">
+                        <!--Dados pessoais-->
+                    <form action="sucesso.html">
+                        <h5>Dados pessoais:</h5>
+                        <hr>
+                        <li class="form-line" data-type="control_fullname" id="id_4">
+                            <label class="form-label form-label-top form-label-auto" id="label_4" for="first_4" aria-hidden="false">Nome Completo:</label>
+                            <div id="cid_4" class="form-input-wide">
+                            <div data-wrapper-react="true">
+                                <span class="form-sub-label-container" style="vertical-align:top" data-input-type="first">
+                             <!--<input type="text" id="first_4" name="q4_nomeCompleto[first]" class="form-textbox" data-defaultvalue="" autocomplete="section-input_4 given-name" size="10" value="" data-component="first" aria-labelledby="label_4 sublabel_4_first"> -->
+                                    <label class="form-sub-label" for="first_4" id="sublabel_4_first" style="min-height:13px" aria-hidden="false">Nome:</label>
+                                    <input placeholder="Informar primeiro nome"  type="text">
+                                </span>
+                                <span class="form-sub-label-container" style="vertical-align:top" data-input-type="last">
+                                  <!--<input type="text" id="last_4" name="q4_nomeCompleto[last]" class="form-textbox" data-defaultvalue="" autocomplete="section-input_4 family-name" size="15" value="" data-component="last" aria-labelledby="label_4 sublabel_4_last"> -->
+                                    <label class="form-sub-label" for="last_4" id="sublabel_4_last" style="min-height:13px" aria-hidden="false">Sobrenome:</label>
+                                    <input placeholder="Informar sobrenome"  type="text">
+                                </span>
+                            </div>
+                            </div>
+                            </li>
+                            <br>
+                            <li class="form-line" data-type="control_fullname" id="id_4">
+                                <label class="form-label form-label-top form-label-auto" id="label_4" for="first_4" aria-hidden="false">Informe seu RG e CPF:</label>
+                            <div id="cid_4" class="form-input-wide">
+                                <div data-wrapper-react="true">
+                                    <span class="form-sub-label-container" style="vertical-align:top" data-input-type="first">
+                                   <!--<input type="text" id="first_4" name="q4_RG[first]" class="form-textbox" data-defaultvalue="" autocomplete="section-input_4 given-name" size="10" value="" data-component="first" aria-labelledby="label_4 sublabel_4_first"> -->
+                                        <label class="form-sub-label" for="first_4" id="sublabel_4_first" style="min-height:13px" aria-hidden="false">RG</label>
+                                        <input placeholder="Números com pontos"  type="text">
+                                    </span>
+                                    <span class="form-sub-label-container" style="vertical-align:top" data-input-type="last">
+                                   <!--<input type="text" id="last_4" name="q4_CPF[last]" class="form-textbox" data-defaultvalue="" autocomplete="section-input_4 family-name" size="15" value="" data-component="last" aria-labelledby="label_4 sublabel_4_last"> -->
+                                        <label class="form-sub-label" for="last_4" id="sublabel_4_last" style="min-height:13px" aria-hidden="false">CPF</label>
+                                        <input placeholder="Números com pontos"  type="text">
+                                    </span>
+                                </div>
+                            <br>
+                            <li class="form-line" data-type="control_fullname" id="id_4">
+                                <label class="form-label form-label-top form-label-auto" id="label_4" for="first_4" aria-hidden="false">Data de nascimento:</label>
+                                <input placeholder="Data de nascimento"  type="date">
+                            <br>
+                            <li class="form-line" data-type="control_fullname" id="id_4">
+                                <label class="form-label form-label-top form-label-auto" id="label_4" for="first_4" aria-hidden="false">Sexo:</label>
+                                <br>
+                            <input type="radio" name="cRadio"> Masculino<br>
+                            <input type="radio" name="cRadio"> Feminino<br>
+                            <input type="radio" name="cRadio"> Prefiro não informar<br><br>
+                            <li class="form-line" data-type="control_fullname" id="id_4">
+                                <label class="form-label form-label-top form-label-auto" id="label_4" for="first_4" aria-hidden="false">Telefone:</label>
+                                <input placeholder="Informar com DDD"  type="tel">
+                            <br>
+                            <li class="form-line" data-type="control_fullname" id="id_4">
+                                <label class="form-label form-label-top form-label-auto" id="label_4" for="first_4" aria-hidden="false">E-mail:</E-mail>
+                                </label>
+                                <input placeholder="E-mail"  type="email">
+                            <br>
+                            <li class="form-line" data-type="control_fullname" id="id_4">
+                                <label class="form-label form-label-top form-label-auto" id="label_4" for="first_4" aria-hidden="false">Senha:</label>
+                            <!--<input type="password" class="form-control w-50 w-50"> -->
+                            <input placeholder="senha"  type="password">
+                            <br>
+                            <hr>
+                            <!--Dados do produto-->
+                            <h5>Dados do produto:</h5>
+                            <hr>
+                            <li class="form-line" data-type="control_fullname" id="id_4">
+                                <label class="form-label form-label-top form-label-auto" id="label_4" for="first_4" aria-hidden="false">Quantidade do produto:</label>
+                               <!--<input type="number" class="form-control w-50"> -->
+                               <input placeholder="Informar quantidade "  type="number">
+                                <br>
+                                <li class="form-line" data-type="control_fullname" id="id_4">
+                                    <label class="form-label form-label-top form-label-auto" id="label_4" for="first_4" aria-hidden="false">Cor do produto:</label>
+                                    <input type="color">
+                                    <br>
+                                    <br>
+                                        <li class="form-line" data-type="control_fullname" id="id_4">
+                                            <label class="form-label form-label-top form-label-auto" id="label_4" for="first_4" aria-hidden="false">Observações:</label>
+                                            <textarea class="form-control w-50" placeholder="Escreva aqui observações sobre o produto.">
+                                            </textarea>
+                                            <br>
+                                            <hr>
+                                            <!--Dados de entrega-->
+                                            <h5>Dados de entrega</h5>
+                                            <hr>
+                                            <li class="form-line" data-type="control_fullname" id="id_4">
+                                                <label class="form-label form-label-top form-label-auto" id="label_4" for="first_4" aria-hidden="false">Endereço:</label>
+                                                <div id="cid_7" class="form-input-wide">
+                                                    <div summary="" class="form-address-table jsTest-addressField">
+                                                    <div class="form-address-line-wrapper jsTest-address-line-wrapperField">
+                                                        <span class="form-address-line form-address-street-line jsTest-address-lineField">
+                                                            <span class="form-sub-label-container" style="vertical-align:top">
+                                                            <!--<input type="text" id="input_7_addr_line1" name="q7_endereco[addr_line1]" class="form-textbox form-address-line" data-defaultvalue="" autocomplete="section-input_7 address-line1" value="" data-component="address_line_1" aria-labelledby="label_7 sublabel_7_addr_line1" required="" maxlength="100"> -->
+                                                            <input placeholder="Nome da rua completo"  type="text">
+                                                                <label class="form-sub-label" for="input_7_addr_line1" id="sublabel_7_addr_line1" style="min-height:13px" aria-hidden="false">Rua/Avenida</label>
+                                                                <br>
+                                                                <div class="form-address-line-wrapper jsTest-address-line-wrapperField">
+                                                                    <span class="form-address-line form-address-street-line jsTest-address-lineField">
+                                                                        <br>
+                                                                        <span class="form-sub-label-container" style="vertical-align:top">
+                                                                            <input placeholder="Obs: casa fundos ou apto"  type="text">
+                                                                            <!--<input type="text" id="input_7_addr_line2" name="q7_endereco[addr_line2]" class="form-textbox form-address-line" data-defaultvalue="" autocomplete="section-input_7 address-line2" value="" data-component="address_line_2" aria-labelledby="label_7 sublabel_7_addr_line2" maxlength="100"> -->
+                                                                <span class="andes-form-control__label">Complemento (Opcional)</span>
+                                                                <br>
+                                                            </span>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                    <br>
+                                                    <div class="form-address-line-wrapper jsTest-address-line-wrapperField">
+                                                        <span class="form-address-line form-address-street-line jsTest-address-lineField">
+                                                            <span class="form-sub-label-container" style="vertical-align:top">
+                                                                <input placeholder="Informar número"  type="text">
+                                                                <!--<input type="text" id="input_7_addr_line2" name="q7_endereco[addr_line2]" class="form-textbox form-address-line" data-defaultvalue="" autocomplete="section-input_7 address-line2" value="" data-component="address_line_2" aria-labelledby="label_7 sublabel_7_addr_line2" maxlength="100"> -->
+                                                        <span class="andes-form-control__label">Número</span>
+                                                                    <div class="andes-form-control__control">
+                                                                        <span class="andes-checkbox__label andes-checkbox__label-text">Sem número</span>
+                                                                        <input type="checkbox" class="andes-checkbox__input" id="react-aria-3">
+                                                                    </div>
+                                                                </div>
+                                                                <br>
+                                                                <span class="form-sub-label-container" style="vertical-align:top">
+                                                                    <input placeholder="Informar bairro"  type="text">
+                                                                    <!--<input type="text" id="input_7_addr_line2" name="q7_endereco[addr_line2]" class="form-textbox form-address-line" data-defaultvalue="" autocomplete="section-input_7 address-line2" value="" data-component="address_line_2" aria-labelledby="label_7 sublabel_7_addr_line2" maxlength="100">-->
+                                                            <span class="andes-form-control__label">Bairro</span>
+                                                            <br>
+                                                            <br>
+                                                                <div class="form-address-line-wrapper jsTest-address-line-wrapperField">
+                                                                        <span class="form-address-line form-address-city-line jsTest-address-lineField ">
+                                                                        <span class="form-sub-label-container" style="vertical-align:top">
+                                                                            <input placeholder="Informar cidade"  type="text">
+                                                                            <!--<input type="text" id="input_7_city" name="q7_endereco[city]" class="form-textbox form-address-city" data-defaultvalue="" autocomplete="section-input_7 address-level2" value="" data-component="city" aria-labelledby="label_7 sublabel_7_city" required="" maxlength="60">-->
+                                                                                <label class="form-sub-label" for="input_7_city" id="sublabel_7_city" style="min-height:13px" aria-hidden="false">Cidade</label>
+                                                                        </span>
+                                                                    </span>
+                                                                    <span class="form-address-line form-address-state-line jsTest-address-lineField ">
+                                                                        <span class="form-sub-label-container" style="vertical-align:top">
+                                                                            <input placeholder="Informar estado"  type="text">
+                                                                            <!--<input type="text" id="input_7_state" name="q7_endereco[state]" class="form-textbox form-address-state" data-defaultvalue="" autocomplete="section-input_7 address-level1" value="" data-component="state" aria-labelledby="label_7 sublabel_7_state" required="" maxlength="60">-->
+                                                                                <label class="form-sub-label" for="input_7_state" id="sublabel_7_state" style="min-height:13px" aria-hidden="false">Estado</label>
+                                                                        </span>
+                                                                    </span>
+                                                                </div>
+                                                                <br>
+                                                                <div class="form-address-line-wrapper jsTest-address-line-wrapperField">
+                                                                    <span class="form-address-line form-address-zip-line jsTest-address-lineField ">
+                                                                        <span class="form-sub-label-container" style="vertical-align:top">
+                                                                            <input placeholder="Informar código postal"  type="text">
+                                                                            <!--<input type="text" id="input_7_postal" name="q7_endereco[postal]" class="form-textbox form-address-postal" data-defaultvalue="" autocomplete="section-input_7 postal-code" value="" data-component="zip" aria-labelledby="label_7 sublabel_7_postal" maxlength="20">-->
+                                                                                <label class="form-sub-label" for="input_7_postal" id="sublabel_7_postal" style="min-height:13px" aria-hidden="false">CEP</label>
+                                                                        </span>
+                                                                    </span>
+                                                                </div>
+                                                                <br>
+                                                    <li class="form-line" data-type="control_fullname" id="id_4">
+                                                        <label class="form-label form-label-top form-label-auto" id="label_4" for="first_4" aria-hidden="false">Este é seu trabalho ou sua casa?</label>
+                                                    <div class="andes-radioGroup" role="radiogroup">
+                                                        <div class="andes-radio andes-radio--inline andes-radio--suffix">
+                                                            <div class="andes-radio-element">
+                                                                <input type="radio" class="andes-radio__input" id="commercial" name="delivery_group" value="commercial">
+                                                                <div class="andes-radio__background">
+                                                                    <div class="andes-radio__outer-circle">
+                                                                        </div>
+                                                                    <div class="andes-radio__inner-circle">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <label class="andes-radio__label" for="commercial">
+                                                                <span>Trabalho</span>
+                                                            </label><i class="icon-radio">
+                                                                <svg width="14" height="13" viewBox="0 0 14 13" fill="rgba(0, 0, 0, 0.8)" xmlns="http://www.w3.org/2000/svg">
+                                                                    <path d="M13 3.3224H10.7333V0.48388C10.7333 0.216778 10.5093 0 10.2333 0H3.76667C3.49067 0 3.26667 0.216778 3.26667 0.48388V3.3224H1C0.448 3.3224 0 3.75595 0 4.29015V12.0322C0 12.5664 0.448 13 1 13H13C13.552 13 14 12.5664 14 12.0322V4.29015C14 3.75595 13.552 3.3224 13 3.3224ZM9 3.3224H5V1.19282H9V3.3224Z" fill="#4A4A4A"></path>
+                                                                </svg>
+                                                            </i>
+                                                        </div>
+                                                        <div class="andes-radio andes-radio--inline andes-radio--suffix">
+                                                            <div class="andes-radio-element">
+                                                                <input type="radio" class="andes-radio__input" id="residential" name="delivery_group" value="residential">
+                                                                <div class="andes-radio__background">
+                                                                    <div class="andes-radio__outer-circle">
+                                                                    </div>
+                                                                    <div class="andes-radio__inner-circle">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <label class="andes-radio__label" for="residential">
+                                                                <span>Casa</span>
+                                                            </label>
+                                                            <i class="icon-radio">
+                                                                <svg width="14" height="15" viewBox="0 0 14 15" fill="rgba(0, 0, 0, 0.8)" xmlns="http://www.w3.org/2000/svg">
+                                                                    <path d="M13.262 7.828L12.0873 6.82625V15H8.61539V10.2316H5.38462V15H1.85958V6.81021L0.790769 7.828L0 7.08143L7 0L14 7.08143L13.262 7.828Z" fill="#4A4A4A"></path>
+                                                                </svg>
+                                                            </i>
+                                                        </div>
+                                                    </div>
+                                                    <br>
+                                                    <li class="form-line" data-type="control_fullname" id="id_4">
+                                                        <label class="form-label form-label-top form-label-auto" id="label_4" for="first_4" aria-hidden="false">Data de agendamento:</label>
+                                                        <input type="datetime-local" class="form-control w-50">
+                                                        <br>
+                                                        <li class="form-line" data-type="control_fullname" id="id_4">
+                                                            <label class="form-label form-label-top form-label-auto" id="label_4" for="first_4" aria-hidden="false">Selecione o tipo de entrega:</label>
+                                                            <select class="form-control w-50">
+                                                                <option>Envio padrão</option>
+                                                                <option>Envio expresso Vip</option>
+                                                                <option>Pac</option>
+                                                                <option>Sedex</option>
+                                                                <option>Sedex 10</option>
+                                                            </select>
+                                                            <br>
+                                                            <hr>
+                                                            <!--Dados do pagamento-->
+                                                            <h5>Dados do pagamento</h5>
+                                                            <hr>
+                                                            <li class="form-line" data-type="control_fullname" id="id_4">
+                                                                <label class="form-label form-label-top form-label-auto" id="label_4" for="first_4" aria-hidden="false">Nome:</label>
+                                                                <input type="text" placeholder="Como está no cartão">
+                                                                <br>
+                                                            <li class="form-line" data-type="control_fullname" id="id_4">
+                                                                <label class="form-label form-label-top form-label-auto" id="label_4" for="first_4" aria-hidden="false">Número do cartão:</label>
+                                                                    <input placeholder="Número cartão" />
+                                                                    <input placeholder="MM / YY" />
+                                                                    <input placeholder="CVC"  />
+                                                                <br>
+                                                                <li class="form-line" data-type="control_fullname" id="id_4">
+                                                                    <label class="form-label form-label-top form-label-auto" id="label_4" for="first_4" aria-hidden="false">Parcelamento:</label>
+                                                                    <select class="form-control w-50">
+                                                                        <option>1x sem juros</option>
+                                                                        <option>2x sem juros</option>
+                                                                        <option>3x sem juros</option>
+                                                                        <option>4x com juros</option>
+                                                                        <option>5x com juros</option>
+                                                                        <option>6x com juros</option>
+                                                                        <option>7x com juros</option>
+                                                                        <option>8x com juros</option>
+                                                                        <option>9x com juros</option>
+                                                                        <option>10x com juros</option>
+                                                                    </select>
+                                                                    <br>
+                                                                    <hr>
+                                                                    <input type="checkbox"> Eu aceito os termos de uso. <br> <br>
+                                                                    <input type="checkbox"> Quero receber promoções no e-mail. <br> <br>
+                                                                    <hr>
+                                                                    <!--Botões-->
+                                                                    <a href="termos.html"><input type="button" value="Ler os termos de uso" class="btn btn-warning"></a> <br> <br>
+                                                                    <input type="reset" class="btn btn-danger w-100" value="Limpar formulário" > <br><br>
+                                                                    <a href="sucesso.html"><input type="submit" class="btn btn-success w-100" value="Cadastrar e enviar"> </a>
+                                                                    <br>
+                    </form>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</html>
